@@ -1,0 +1,24 @@
+Model deployment in heroku 
+1. have heroku account setup
+    heroku login
+2. create heroku app:
+    heroku create
+3. Create git clone:
+    https://github.com/mink007/microsoft_machine_learning_openhack.git
+   We essentially need below files from the clone:
+     1.app.py
+     2.objectmodelchal5.h5
+     3.requirements.txt
+     
+ 4. git add -A
+ 5. git commit -m "Mode deployment"
+ 6. git push heroku master
+      This will give a url link for your heroku app.
+       For e.g. https://protected-plateau-85007.herokuapp.com/
+     
+    
+Try the test image as below:
+https://protected-plateau-85007.herokuapp.com/api?url=http://content.backcountry.com/images/items/1200/AAD/AAD0002/AAD0002-DUSROS_D1.jpg
+
+To give a new image url, replace with new url after
+"https://protected-plateau-85007.herokuapp.com/api?url="
