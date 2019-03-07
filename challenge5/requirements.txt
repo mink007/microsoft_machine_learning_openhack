@@ -1,0 +1,11 @@
+Flask
+Jinja2
+Werkzeug
+certifi
+chardet
+gunicorn
+requests
+tensorflow
+keras
+numpy
+pillow
